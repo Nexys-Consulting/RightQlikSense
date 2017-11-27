@@ -10,13 +10,13 @@ Just a quick hack to add Windows context menu to open QVF files in default web n
 ![1511768444348](imgs/1511768444348.png)
 
 
+two menus is added:
 
-Double click on qvf file work and open application in navigator
-
+- **Qvf Open in Desktop**: Open qvf application in navigator (Double click on qvf file work and open application in navigator)
+- **Qvf Open in Desktop without data**: Open qvf application in navigator without data
 
 
 Only tested on Windows 10 
-
 
 
 
