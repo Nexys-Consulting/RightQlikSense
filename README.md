@@ -1,9 +1,11 @@
 # RightQlikSense
 
+Just a quick hack to add Windows context menu to open QVF files in default web navigator (and in Qlik Sense Desktop) even if the application is not in the directory `C:\Users\[Username]\Documents\Qlik\Sense\Apps`
 
-Just a quick hack to add Windows context menu to open QVF files in Qlik Sense Desktop with default web navigator even if the application is not in the directory `C:\Users\[Username]\Documents\Qlik\Sense\Apps`
+
 
 > Qlik Sense Desktop need to be started before action work
+
 
 ![1511768444348](imgs/1511768444348.png)
 
@@ -20,7 +22,11 @@ Only tested on Windows 10
 
 ## Installation
 
-Double click on `Install-RightQlikSense.reg` to import context menu script in Windows registry
+
+
+- Download files here https://github.com/Nexys-Consulting/RightQlikSense/archive/master.zip
+- Unzip `master.zip`
+- Double click on `Install-RightQlikSense.reg` to import context menu script in Windows registry
 
 
 
