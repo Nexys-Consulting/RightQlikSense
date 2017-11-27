@@ -22,6 +22,17 @@ Only tested on Windows 10
 
 Double click on `Install-RightQlikSense.reg` to import context menu script in Windows registry
 
+
+
+# Remove
+
+If you want remove context menu Double click on `Remove-RightQlikSense.reg` to delete context menu for .qvf files.
+
+
+# PowerShell code
+
+For curious here the PowerShell code used in menu:
+
 **Open**:
 
 ```powershell
@@ -37,10 +48,4 @@ Add-Type -AssemblyName System.Web;
 $EncodedUrl = [System.Web.HttpUtility]::UrlEncode("%V");
 start "http://localhost:4848/sense/app/$EncodedUrl/noData/true";
 ```
-
-
-
-# Remove
-
-If you want remove context menu Double click on `Remove-RightQlikSense.reg` to delete context menu for .qvf files.
 
