@@ -1,7 +1,3 @@
----
-typora-copy-images-to: imgs
----
-
 # RightQlikSense
 
 
@@ -9,7 +5,7 @@ Just a quick hack to add Windows context menu to open QVF files in Qlik Sense De
 
 > Qlik Sense Desktop need to be started before action work
 
-![1511768444348](C:\dev\src\RightQlikSense\imgs/1511768444348.png)
+![1511768444348](imgs/1511768444348.png)
 
 
 
