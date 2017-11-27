@@ -30,12 +30,12 @@ Only tested on Windows 10
 
 
 
-# Remove
+## Remove
 
 If you want remove context menu Double click on `Remove-RightQlikSense.reg` to delete context menu for .qvf files.
 
 
-# PowerShell code
+## PowerShell code
 
 For curious here the PowerShell code used in menu:
 
