@@ -1,6 +1,7 @@
 # What is diferent from original
-Original version use wrong method for url encode. When directory name or QVF name include spaces it does not work
-I replaced method [System.Web.HttpUtility]::UrlEncode with [uri]::EscapeDataString
+Original version use wrong method for url encode. When directory name or QVF name include spaces it does not work.
+
+I replaced method "[System.Web.HttpUtility]::UrlEncode" with "[uri]::EscapeDataString".
 
 
 # RightQlikSense
