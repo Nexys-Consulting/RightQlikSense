@@ -1,3 +1,8 @@
+# What is diferent from original
+Original version use wrong method for url encode. When directory name or QVF name include spaces it does not work
+I replaced method [System.Web.HttpUtility]::UrlEncode with [uri]::EscapeDataString
+
+
 # RightQlikSense
 
 Just a quick hack to add Windows context menu to open QVF files in default web navigator (and in Qlik Sense Desktop) even if the application is not in the directory `C:\Users\[Username]\Documents\Qlik\Sense\Apps`
@@ -43,7 +48,7 @@ For curious here the PowerShell code used in menu:
 
 ```powershell
 Add-Type -AssemblyName System.Web;
-$EncodedUrl = [System.Web.HttpUtility]::UrlEncode("%V");
+$EncodedUrl = [uri]::EscapeDataString("%V");
 start "http://localhost:4848/sense/app/$EncodedUrl";
 ```
 
@@ -51,7 +56,7 @@ start "http://localhost:4848/sense/app/$EncodedUrl";
 
 ```powershell
 Add-Type -AssemblyName System.Web;
-$EncodedUrl = [System.Web.HttpUtility]::UrlEncode("%V");
+$EncodedUrl = [uri]::EscapeDataString("%V");
 start "http://localhost:4848/sense/app/$EncodedUrl/noData/true";
 ```
 
