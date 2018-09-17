@@ -29,7 +29,7 @@ Only tested on Windows 10
 
 
 
-- Download files here https://github.com/Nexys-Consulting/RightQlikSense/archive/master.zip
+- Download files here https://github.com/sssimon-phoenix/RightQlikSense/archive/master.zip
 - Unzip `master.zip`
 - Double click on `Install-RightQlikSense.reg` to import context menu script in Windows registry
 
