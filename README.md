@@ -1,4 +1,4 @@
-# What is diferent from original
+# Correction from github.com/sssimon-phoenix What is diferent from original
 Original version use wrong method for url encode. When directory name or QVF name include spaces it does not work.
 
 I replaced method "[System.Web.HttpUtility]::UrlEncode" with "[uri]::EscapeDataString".
@@ -30,7 +30,7 @@ Only tested on Windows 10
 
 
 
-- Download files here https://github.com/sssimon-phoenix/RightQlikSense/archive/master.zip
+- Download files here https://github.com/Nexys-Consulting/RightQlikSense/archive/master.zip
 - Unzip `master.zip`
 - Double click on `Install-RightQlikSense.reg` to import context menu script in Windows registry
 
